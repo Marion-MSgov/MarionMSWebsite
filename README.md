@@ -8,3 +8,12 @@
   <li> Meridian Town Hall Results </li>
   <li> Newton Town Hall Results </li>
   <li> Jackson Town Hall Results </li>
+-24,7 +24,7 @@ if (options.cssFile) {
+  queue.push(function() {
+    fs.readFile(options.cssFile, function(err, css) {
+      if (handleError(err)) { return; }
+      options.extraCss = css;
+      options.extraCss = css.toString();
+      next();
+    });
+  });
