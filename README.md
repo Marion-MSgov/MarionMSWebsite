@@ -1,10 +1,5 @@
  Marion, Mississippi 
 <h4> Learning the code for a future government website.</h4>
-<style>
-h1 {
-  color: red;
-  }
-  </style>
   <body>
 <h3> This is also a test to see the future developments </h3>
 <h5> Another <strong> example </strong> of a possible subheading? </h5>
